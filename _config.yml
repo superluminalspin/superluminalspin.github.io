@@ -1,11 +1,11 @@
 title: Daryn Mann - ePortfolio
-description: Computer Science Portfolio showcasing my work and achievements
+description: CS499 Capstone Assessment & Artifact Enhancements
 baseurl: ""
-url: "https://yourusername.github.io"
+url: "https://superluminalspin.github.io"
 markdown: kramdown
 theme: minima
 
 # Optional: Add your social links
-github_username: yourusername
-linkedin_username: yourlinkedin
-email: your.email@example.com
+github_username: superluminalspin
+linkedin_username: _________
+email: daryn.mann@snhu.edu
