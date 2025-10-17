@@ -1,8 +1,7 @@
-# superluminalspin.github.io
 
-Tests directory contains unit tests for ArtifactEnhancement-SWE services.
+i) Tests directory contains unit tests for ArtifactEnhancement-SWE services.
 
-AVLTests directory contains unit tests for the AVL Tree and Binary Search Tree classes.
+ii) AVLTests directory contains unit tests for the AVL Tree and Binary Search Tree classes.
 
 
 Capstone Artifact Enhancements
