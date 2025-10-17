@@ -39,3 +39,5 @@ SWE artifact which include the following:
 -Ran cppcheck and fixed all issues that can be fixed at the moment.
 
 -Fully implemented ContactService in menu loop
+
+10/15/2025 19:15 -- Merged artifact files from old repo to Github Pages repo and finalized profile HTML and contents.
