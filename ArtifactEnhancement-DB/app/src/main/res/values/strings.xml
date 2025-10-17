@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ProjectTwo_v0.2</string>
+    <string name="ActiveCustomer">Active Customer</string>
+    <string name="btn_viewAll">View All</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_clear">Clear</string>
+    <string name="enter_query">Enter query</string>
+    <string name="Customers">Customers</string>
+    <string name="Search">Search</string>
+    <string name="CustomerName">Customer Name</string>
+    <string name="CustomerAge">Age</string>
+    <string name="ActiveStatus">Active</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="customer_age">Age</string>
+    <string name="header_name">Name</string>
+    <string name="header_age">Age</string>
+    <string name="header_status">Status</string>
+</resources>

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Artifact.c9574416\\x64\\Debug\\InputValidator.h.obj",
+            "outputs": [
+                "X:\\SNHU\\CS-499-10457-M01\\ArtifactEnhancements\\ArtifactEnhancement-SWE\\Artifact.c9574416\\x64\\Debug\\vc143.pdb",
+                "Artifact.c9574416\\x64\\Debug\\",
+                "X:\\SNHU\\CS-499-10457-M01\\ArtifactEnhancements\\ArtifactEnhancement-SWE\\Artifact.c9574416\\x64\\Debug\\InputValidator.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "InputValidator.h",
+                    "source-path": "x:\\snhu\\cs-499-10457-m01\\artifactenhancements\\artifactenhancement-swe\\inputvalidator.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

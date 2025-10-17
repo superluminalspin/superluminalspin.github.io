@@ -1,0 +1,164 @@
+# Visual Studio
+.vs/
+*.ipch
+*.pch
+*.obj
+*.exe
+*.dll
+*.log
+*.user
+*.suo
+*.cache
+*.db
+*.VC.db
+*.VC.opendb
+*.tlog
+*.idb
+*.pdb
+*.ilk
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.sbr
+*.scc
+*.vssscc
+*.v12.suo
+*.v11.suo
+*.psess
+*.vsp
+*.vspx
+*.vspscc
+*.cachefile
+*.dbmdl
+*.bak
+*.backup
+*.tmp
+*.temp
+*.log
+
+# Build output
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+out/
+Debug/
+Release/
+x64/
+x86/
+ipch/
+*.lib
+*.exp
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+
+# Android Studio/IntelliJ
+.idea/
+*.iml
+.gradle/
+local.properties
+captures/
+build/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+*.dex
+*.class
+*.log
+*.hprof
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Node.js (if using npm for JS)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.s3db
+*.sl3
+*.sql
+*.db-journal
+*.db-wal
+*.db-shm
+
+# JUnit & Google Test (test output, coverage)
+test-output/
+*.gcda
+*.gcno
+*.gcov
+*.coverage
+*.lcov
+*.clover
+*.cobertura
+*.test
+*.result
+*.out
+*.xml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Python (if using for scripts)
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Miscellaneous
+*.swp
+*.swo
+*.orig
+*.rej
+*.bak
+*.tmp
+*.temp
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# JetBrains IDEs
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# VS Code
+.vscode/
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# Windows
+$RECYCLE.BIN/

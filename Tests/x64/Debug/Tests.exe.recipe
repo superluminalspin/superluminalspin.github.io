@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>X:\SNHU\CS-499-10457-M01\ArtifactEnhancements\ArtifactEnhancement-SWE\x64\Debug\ArtifactEnhancement-SWE.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>X:\SNHU\CS-499-10457-M01\ArtifactEnhancements\ArtifactEnhancement-SWE\x64\Debug\Tests.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
