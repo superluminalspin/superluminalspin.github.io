@@ -143,28 +143,14 @@
             <div class="narrative-section">
                 <h3>Algorithms and Data Structures</h3>
                 <div class="content-box">
-                    <h4>Enhancements Implemented:</h4>
-                    <ul>
-                        <li>Optimized search algorithms from O(n) to O(log n) complexity</li>
-                        <li>Implemented self-balancing AVL tree structure</li>
-                        <li>Added efficient sorting mechanisms</li>
-                        <li>Improved memory management and resource utilization</li>
-                    </ul>
+                    <h4>Description</h4>
+                    <p>The original artifact used for the "algorithm and data structures" enhancement is the Binary Search Tree (BST) assignment from CS-300: Data Structures and Algorithms. The original purpose of this program was to create objects from a CSV file and load them into a BST. The program contained functionality to insert, remove, search, and print via in order traversal.</p>
                     
-                    <h4>Skills Demonstrated:</h4>
-                    <ul>
-                        <li>Algorithm analysis and optimization</li>
-                        <li>Data structure implementation and selection</li>
-                        <li>Performance analysis and benchmarking</li>
-                        <li>Memory management</li>
-                    </ul>
+                    <h4>Justification</h4>
+                    <p>This artifact was selected for enhancement due to having a clear, demonstratable upgrade path meaning that the next logical step for a BST is to either go for an AVL Tree or a Red-Black Tree. Of the two ways to balance a BST, I chose the AVL Tree route due to this being a read-heavy data structure that is loaded with data once and then has functions performed on it. This enhancement allowed for demonstration of improving the time complexity of a data structure without changing its underlying functionality of being a BST. The project also allowed for further use of the C++ Google Test library.</p>
                     
-                    <h4>Course Outcomes Addressed:</h4>
-                    <ul>
-                        <li>Design and evaluate computing solutions using algorithmic principles</li>
-                        <li>Use innovative techniques and tools to implement computing solutions</li>
-                        <li>Employ strategies for building collaborative environments</li>
-                    </ul>
+                    <h4>Reflection</h4>
+                    <p>As with the software engineering enhancement, issues persisted with misconfigurations in Visual Studio and the Google Test package. The artifact was improved in time complexity to O(log n) in most cases (for insert, removal, and search operations) where the unbalanced BST can devolve into a linked list at O(n). The artifact enhancement also refactored out the BST class to be generic, same with the AVL Tree class and functions associated with the original artifact were also refactored into their own class. Each of the course outcomes were met other than #2 as I felt no need to go into detailed documentation for a smaller, straight-forward project.</p>
                 </div>
             </div>
 
