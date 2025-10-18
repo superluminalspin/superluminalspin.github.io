@@ -77,46 +77,46 @@
                     </a>
                 </div>
                 <p>
-                    In this review, I examine the original codebase and outline planned improvements across three categories: Software Design and Engineering, Algorithms and Data Structures, and Databases. The analysis demonstrates my understanding of code quality principles and my ability to communicate technical concepts effectively.
+                    In this review, I examine the original codebase and determine areas that were done well, or are concerning and need attention. The analysis demonstrates my understanding of code quality principles and my ability to communicate technical concepts effectively.
                 </p>
             </div>
         </section>
 
-        <!-- Projects Section -->
+        <!-- Artifacts Section -->
         <section id="projects" class="section">
-            <h2>Projects & Artifacts</h2>
+            <h2>Original Artifacts & Enhancements</h2>
             
             <div class="project-grid">
                 <div class="project-card">
-                    <h3>Software Design & Engineering Enhancement</h3>
+                    <h3>Software Design & Engineering</h3>
                     <p>
-                        Enhanced a C++ application by implementing object-oriented design principles, improving code modularity, and adding comprehensive error handling. The project demonstrates proficiency in software architecture and design patterns.
+                        Converted an "Appointment Handler" Java program to C++. Includes converting model and service classes, converting tests between JUnit to Google Test, implementing new input handling/validation, and a basic menu to dynamically test functionality. 
                     </p>
                     <div class="project-links">
-                        <a href="https://github.com/yourusername/project1" target="_blank">View Repository</a>
-                        <a href="https://github.com/yourusername/project1/blob/main/README.md" target="_blank">Documentation</a>
+                        <a href="https://github.com/superluminalspin/superluminalspin.github.io/tree/main/ArtifactEnhancement-SWE" target="_blank">Enhanced Artifact</a>
+                        <a href="https://github.com/superluminalspin/superluminalspin.github.io/tree/main/OriginalArtifact-SWE" target="_blank">Original Artifact</a>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <h3>Algorithms & Data Structures Enhancement</h3>
+                    <h3>Algorithms & Data Structures</h3>
                     <p>
-                        Optimized sorting and searching algorithms, implemented efficient data structures (AVL trees, hash tables), and improved overall performance. This project showcases algorithmic thinking and complexity analysis skills.
+                        Optimized a C++ written Binary Search Tree program that stores objects from CSV. Converted implementation to an AVL Tree and ran time complexity comparisons.
                     </p>
                     <div class="project-links">
-                        <a href="https://github.com/yourusername/project2" target="_blank">View Repository</a>
-                        <a href="https://github.com/yourusername/project2/blob/main/README.md" target="_blank">Documentation</a>
+                        <a href="https://github.com/superluminalspin/superluminalspin.github.io/tree/main/ArtifactEnhancement-DSA" target="_blank">Enhanced Artifact</a>
+                        <a href="https://github.com/superluminalspin/superluminalspin.github.io/tree/main/OriginalArtifact-DSA" target="_blank">Original Artifact</a>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <h3>Database Enhancement</h3>
+                    <h3>Databases</h3>
                     <p>
-                        Migrated from file-based storage to a robust database system, implemented CRUD operations, and added data validation. The enhancement demonstrates database design principles and data management best practices.
+                        Added search functionality to an Android application, written in Java and using SQLite, which allows for storage and listing of customers. Moved all activities into fragments and added bottom menu navigation.
                     </p>
                     <div class="project-links">
-                        <a href="https://github.com/yourusername/project3" target="_blank">View Repository</a>
-                        <a href="https://github.com/yourusername/project3/blob/main/README.md" target="_blank">Documentation</a>
+                        <a href="https://github.com/superluminalspin/superluminalspin.github.io/tree/main/ArtifactEnhancement-DB" target="_blank">Enhanced Artifact</a>
+                        <a href="https://github.com/superluminalspin/superluminalspin.github.io/tree/main/OriginalArtifact-DB" target="_blank">Original Artifact</a>
                     </div>
                 </div>
             </div>
@@ -129,84 +129,42 @@
             <div class="narrative-section">
                 <h3>Software Design and Engineering</h3>
                 <div class="content-box">
-                    <h4>Enhancements Implemented:</h4>
-                    <ul>
-                        <li>Refactored monolithic code into modular, object-oriented design</li>
-                        <li>Implemented design patterns (Strategy, Observer, Factory)</li>
-                        <li>Added comprehensive error handling and input validation</li>
-                        <li>Improved code documentation and inline comments</li>
-                    </ul>
+                    <h4>Description</h4>
+                    <p>The original artifact used for the "software engineering and design" artifact is Project One from a course, CS-320: Software Testing, Automation, and Quality Assurance. The original purpose of the artifact was to demonstrate knowledge of how to implement service classes and test them with JUnit.</p>
                     
-                    <h4>Skills Demonstrated:</h4>
-                    <ul>
-                        <li>Object-oriented programming principles</li>
-                        <li>Software architecture and design patterns</li>
-                        <li>Code refactoring and optimization</li>
-                        <li>Technical documentation</li>
-                    </ul>
+                    <h4>Justification</h4>
+                    <p>I chose this artifact because I knew that I could convert it to another programming language 1:1 including tests by using C++. It also provided a clean base to add functionality to. This allowed me to implement a singleton design pattern on each of the service classes. It also let me remove bad functionality from bad coding, which was validating input inside the model class, and move it into its own module. This enhancement showed how much I had improved since CS-320 by making a more sophisticated program, but not necessarily more complex.</p>
                     
-                    <h4>Course Outcomes Addressed:</h4>
-                    <ul>
-                        <li>Design and evaluate computing solutions that solve problems using algorithmic principles</li>
-                        <li>Demonstrate an ability to use well-founded techniques to implement computing solutions</li>
-                        <li>Develop a security mindset that anticipates adversarial exploits</li>
-                    </ul>
+                    <h4>Reflection</h4>
+                    <p>The only real challenges faced when creating this enhancement came from using Visual Studio and Google Test in combination which gave a significant hangup due to a misconfiguration. Time could be considered an issue as if I had more time, I would have fully implemented the dynamic testing menu instead of restricting it to one class. Each of the course outcomes that were laid out in the enhancement plan were met other than #2 which was partially met. I started creating non-code commented documentation but ultimately felt it wasn't necessary due to the program not being complex enough to warrant it.</p>
                 </div>
             </div>
 
             <div class="narrative-section">
                 <h3>Algorithms and Data Structures</h3>
                 <div class="content-box">
-                    <h4>Enhancements Implemented:</h4>
-                    <ul>
-                        <li>Optimized search algorithms from O(n) to O(log n) complexity</li>
-                        <li>Implemented self-balancing AVL tree structure</li>
-                        <li>Added efficient sorting mechanisms</li>
-                        <li>Improved memory management and resource utilization</li>
-                    </ul>
+                    <h4>Description</h4>
+                    <p>The original artifact used for the "algorithm and data structures" enhancement is the Binary Search Tree (BST) assignment from CS-300: Data Structures and Algorithms. The original purpose of this program was to create objects from a CSV file and load them into a BST. The program contained functionality to insert, remove, search, and print via in order traversal.</p>
                     
-                    <h4>Skills Demonstrated:</h4>
-                    <ul>
-                        <li>Algorithm analysis and optimization</li>
-                        <li>Data structure implementation and selection</li>
-                        <li>Performance analysis and benchmarking</li>
-                        <li>Memory management</li>
-                    </ul>
+                    <h4>Justification</h4>
+                    <p>This artifact was selected for enhancement due to having a clear, demonstratable upgrade path meaning that the next logical step for a BST is to either go for an AVL Tree or a Red-Black Tree. Of the two ways to balance a BST, I chose the AVL Tree route due to this being a read-heavy data structure that is loaded with data once and then has functions performed on it. This enhancement allowed for demonstration of improving the time complexity of a data structure without changing its underlying functionality of being a BST. The project also allowed for further use of the C++ Google Test library.</p>
                     
-                    <h4>Course Outcomes Addressed:</h4>
-                    <ul>
-                        <li>Design and evaluate computing solutions using algorithmic principles</li>
-                        <li>Use innovative techniques and tools to implement computing solutions</li>
-                        <li>Employ strategies for building collaborative environments</li>
-                    </ul>
+                    <h4>Reflection</h4>
+                    <p>As with the software engineering enhancement, issues persisted with misconfigurations in Visual Studio and the Google Test package. The artifact was improved in time complexity to O(log n) in most cases (for insert, removal, and search operations) where the unbalanced BST can devolve into a linked list at O(n). The artifact enhancement also refactored out the BST class to be generic, same with the AVL Tree class and functions associated with the original artifact were also refactored into their own class. Each of the course outcomes were met other than #2 as I felt no need to go into detailed documentation for a smaller, straight-forward project.</p>
                 </div>
             </div>
 
             <div class="narrative-section">
                 <h3>Databases</h3>
                 <div class="content-box">
-                    <h4>Enhancements Implemented:</h4>
-                    <ul>
-                        <li>Migrated from CSV file storage to SQLite database</li>
-                        <li>Implemented normalized database schema</li>
-                        <li>Added CRUD operations with prepared statements</li>
-                        <li>Implemented data validation and integrity constraints</li>
-                    </ul>
+                    <h4>Description</h4>
+                    <p>The original artifact used for this enhancement is an open-source project from FreeCodeCamp which is a customer management Android application that is used as a showcase for SQLite. The original artifact is written in Java using the Gradle build tool. The project uses a minimum Android SDK of 24 and target SDK of 35.</p>
                     
-                    <h4>Skills Demonstrated:</h4>
-                    <ul>
-                        <li>Database design and normalization</li>
-                        <li>SQL query optimization</li>
-                        <li>Data security and validation</li>
-                        <li>Database integration with applications</li>
-                    </ul>
+                    <h4>Justification</h4>
+                    <p>The purpose for inclusion of this artifact into my ePortfolio came down to a lack of options for SNHU related database projects as most of them were done within VM's that I lack control over. The artifact also has endless enhancement opportunities due to its basic nature. The enhancements allowed me to display skills in SQLite using regular and virtual tables with FTS4. It also allowed me to use logging throughout the program as well as exception handling. Lastly, the original artifact gave opportunity to refactor original activity functionality into fragments that are managed by a bottom navigation menu. The enhancement improved the artifact by implementing a search fragment that gives the user ability to use full text searching (FTS) on customer data stored in SQL tables.</p>
                     
-                    <h4>Course Outcomes Addressed:</h4>
-                    <ul>
-                        <li>Develop a security mindset for data protection</li>
-                        <li>Design computing solutions that solve problems</li>
-                        <li>Use innovative techniques for data management</li>
-                    </ul>
+                    <h4>Reflection</h4>
+                    <p>There weren't any challenges faced for this artifact enhancement, and it was implemented as planned. I did learn a bit about how virtual tables work as an interface for the full-text search implementation and that the virtual table can be updated simultaneously with the normal database table using the same exact CRUD methods. It also made me more comfortable in converting activities to fragments and implementing fragments within an Android project. Each of the course outcomes that the enhancement aligns with were met other than outcome #2 which was an expectation of increased documentation. In this case, additional documentation could have been produced.</p>
                 </div>
             </div>
         </section>
