@@ -8,7 +8,17 @@
 		Test package for TaskService.cpp
 */
 
+/*
+	Test that only one instance of the service class is allowed
+*/
+TEST(TaskServiceSingletonTest, ReturnSameInstance)
+{
+	TaskService& service1 = TaskService::getInstance();
+	TaskService& service2 = TaskService::getInstance();
 
+	// Expect that both references to Task Service classes are the same address
+	EXPECT_EQ(&service1, &service2);
+}
 
 /*
 	Test that Tasks are correctly inserted into hashmap

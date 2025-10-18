@@ -9,7 +9,17 @@
 		Test package for ContactService.cpp
 */
 
+/*
+	Test that only one instance of the service class is allowed
+*/
+TEST(ContactServiceSingletonTest, ReturnSameInstance)
+{
+	ContactService& service1 = ContactService::getInstance();
+	ContactService& service2 = ContactService::getInstance();
 
+	// Expect that both references to Contact Service classes are the same address
+	EXPECT_EQ(&service1, &service2);
+}
 
 /*
 	Test that Contacts are correctly inserted into hashmap

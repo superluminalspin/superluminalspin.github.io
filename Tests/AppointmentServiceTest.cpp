@@ -9,7 +9,17 @@
 		Test package for AppointmentService.cpp
 */
 
+/*
+	Test that only one instance of the service class is allowed
+*/
+TEST(AppointmentServiceSingletonTest, ReturnSameInstance)
+{
+	AppointmentService& service1 = AppointmentService::getInstance();
+	AppointmentService& service2 = AppointmentService::getInstance();
 
+	// Expect that both references to Appointment Service classes are the same address
+	EXPECT_EQ(&service1, &service2);
+}
 
 // Function to convert parse string date due to member function being unreachable from tests.
 static std::chrono::year_month_day parseDate(const std::string& dateStr) {
