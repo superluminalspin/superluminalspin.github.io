@@ -7,6 +7,8 @@ These files belong to the DSA Artifact Enhancement and use Visual Studio + Googl
 
 -Timing tests and comparisons for insertion and search operations.
 
+-Tests to ensure that only a single instance of each service classes can be instantiated.
+
 ---------------------
 
 Tests should be added into solution if not already present, add a reference to the AVL Tree project, and set as the test project as the startup project before attempting to run.
