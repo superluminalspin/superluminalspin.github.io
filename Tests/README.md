@@ -12,5 +12,8 @@ Tests should be added into solution if not already present, add a reference to t
 
 Tests should provide the following results:
 
+![01-SWETests](https://github.com/user-attachments/assets/250755cc-d915-47c9-b7f4-ff5ac96065d9)
 
+![02-SWETests](https://github.com/user-attachments/assets/d8215f54-82bb-4af0-9ef4-e6853ded863a)
 
+![03-SWETests](https://github.com/user-attachments/assets/ee6df507-ba2f-400e-9b33-8404e9d25d3e)
