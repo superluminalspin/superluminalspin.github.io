@@ -13,4 +13,10 @@ Tests should be added into solution if not already present, add a reference to t
 
 Tests should provide the following results:
 
-![Test01](images/01-AVLTests.jpg)
+![01-AVLTests](https://github.com/user-attachments/assets/0cdb594a-04a1-4a60-a126-01e2950f6028)
+
+![02-AVLTests](https://github.com/user-attachments/assets/4d6e02ef-0c40-4750-9357-eaf1ed84cb26)
+
+![03-AVLTests](https://github.com/user-attachments/assets/524f7d83-f10e-4169-bd36-777d655f316a)
+
+![04-AVLTests](https://github.com/user-attachments/assets/5f0bc947-d21c-4a0f-a497-0607b11e7775)
