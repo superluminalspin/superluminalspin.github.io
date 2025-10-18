@@ -10,3 +10,7 @@ These files belong to the DSA Artifact Enhancement and use Visual Studio + Googl
 ---------------------
 
 Tests should be added into solution if not already present, add a reference to the AVL Tree project, and set as the test project as the startup project before attempting to run.
+
+Tests should provide the following results:
+
+![Test01](images/01-AVLTests.jpg)
